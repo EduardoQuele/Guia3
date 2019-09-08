@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MisDatos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="39dp">
+
+        <TextView
+            android:id="@+id/txtdato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="20sp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="DATOS DEL ESTUDIANTE" />
+
+        <TextView
+            android:id="@+id/textnom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="Eduardo José Quele Calderón" />
+
+        <TextView
+            android:id="@+id/textcod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="QC15-I04-001" />
+
+        <TextView
+            android:id="@+id/textCorrelativo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="Correlativo de lista: 18" />
+
+    </LinearLayout>
+
+</LinearLayout>
